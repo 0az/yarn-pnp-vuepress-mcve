@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@vuepress/theme-blog": "^2.2.0",
+    "vuepress": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "resolutions": {
+    "prettier": "npm:@btmills/prettier@^2.0.5"
+  },
+  "scripts": {
+    "build": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "private": true,
+  "dependenciesMeta": {
+    "@vuepress/core": {
+      "unplugged": true
+    },
+    "cache-loader": {
+      "unplugged": true
+    },
+    "webpack": {
+      "unplugged": true
+    }
+  }
+}
